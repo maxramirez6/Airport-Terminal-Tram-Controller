@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>4</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>a</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>b</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>cin</string>
+        </entry>
+      </elementAttributes>
+      <pos x="220" y="860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>3-3,2-2,1-1,0-0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>3-3,2-2,1-1,0-0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>full_adder.dig</elementName>
+      <elementAttributes/>
+      <pos x="760" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>full_adder.dig</elementName>
+      <elementAttributes/>
+      <pos x="760" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>full_adder.dig</elementName>
+      <elementAttributes/>
+      <pos x="760" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>full_adder.dig</elementName>
+      <elementAttributes/>
+      <pos x="760" y="820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>XOr</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1120" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>3-3,2-2,1-1,0-0</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>y</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>cout</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1160" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>overfl</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="280"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="1000" y="640"/>
+      <p2 x="1140" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="640"/>
+      <p2 x="760" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="160"/>
+      <p2 x="760" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="160"/>
+      <p2 x="1020" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="160"/>
+      <p2 x="1160" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="580"/>
+      <p2 x="1140" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="580"/>
+      <p2 x="1300" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="260"/>
+      <p2 x="660" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="260"/>
+      <p2 x="1120" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="420"/>
+      <p2 x="760" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="420"/>
+      <p2 x="860" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="420"/>
+      <p2 x="600" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="200"/>
+      <p2 x="440" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="200"/>
+      <p2 x="700" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="360"/>
+      <p2 x="860" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="840"/>
+      <p2 x="860" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="840"/>
+      <p2 x="760" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="140"/>
+      <p2 x="760" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="140"/>
+      <p2 x="1040" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="620"/>
+      <p2 x="1140" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="620"/>
+      <p2 x="860" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="620"/>
+      <p2 x="760" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="780"/>
+      <p2 x="860" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="300"/>
+      <p2 x="1120" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="400"/>
+      <p2 x="760" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="400"/>
+      <p2 x="1000" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="400"/>
+      <p2 x="620" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="240"/>
+      <p2 x="680" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="560"/>
+      <p2 x="860" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="820"/>
+      <p2 x="760" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="820"/>
+      <p2 x="1000" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="180"/>
+      <p2 x="760" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="600"/>
+      <p2 x="1140" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="600"/>
+      <p2 x="760" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="600"/>
+      <p2 x="980" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="440"/>
+      <p2 x="760" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="440"/>
+      <p2 x="580" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="280"/>
+      <p2 x="1300" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="380"/>
+      <p2 x="440" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="380"/>
+      <p2 x="620" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="380"/>
+      <p2 x="1020" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="220"/>
+      <p2 x="700" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="860"/>
+      <p2 x="760" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="140"/>
+      <p2 x="1040" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="600"/>
+      <p2 x="980" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="260"/>
+      <p2 x="660" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="180"/>
+      <p2 x="740" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="440"/>
+      <p2 x="740" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="640"/>
+      <p2 x="740" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="440"/>
+      <p2 x="580" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="400"/>
+      <p2 x="1000" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="640"/>
+      <p2 x="1000" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="240"/>
+      <p2 x="680" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="420"/>
+      <p2 x="600" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="140"/>
+      <p2 x="700" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="220"/>
+      <p2 x="700" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="160"/>
+      <p2 x="620" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="400"/>
+      <p2 x="620" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="360"/>
+      <p2 x="860" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="560"/>
+      <p2 x="860" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="780"/>
+      <p2 x="860" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="380"/>
+      <p2 x="860" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="300"/>
+      <p2 x="1020" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="160"/>
+      <p2 x="1020" y="260"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

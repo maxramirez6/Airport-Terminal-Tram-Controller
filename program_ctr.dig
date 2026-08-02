@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>4</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>enable</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>reset</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>four_bit_reg.dig</elementName>
+      <elementAttributes/>
+      <pos x="400" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>incrementer.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>q</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="600" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="100" y="500"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="340" y="560"/>
+      <p2 x="400" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="580"/>
+      <p2 x="320" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="580"/>
+      <p2 x="400" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="660"/>
+      <p2 x="360" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="500"/>
+      <p2 x="400" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="500"/>
+      <p2 x="200" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="520"/>
+      <p2 x="400" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="520"/>
+      <p2 x="200" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="440"/>
+      <p2 x="540" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="620"/>
+      <p2 x="340" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="540"/>
+      <p2 x="540" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="540"/>
+      <p2 x="600" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="520"/>
+      <p2 x="320" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="440"/>
+      <p2 x="160" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="560"/>
+      <p2 x="340" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="500"/>
+      <p2 x="100" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="580"/>
+      <p2 x="360" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="440"/>
+      <p2 x="540" y="540"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
