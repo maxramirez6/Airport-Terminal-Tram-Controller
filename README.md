@@ -1,7 +1,4 @@
-# Airport-Terminal-Tram-Controller
-
-# Custom Single-Cycle Microprocessor – Airport Terminal Tram Controller
-## Overview
+# Airport-Terminal-Tram-Controller Custom Single-Cycle Microprocessor 
 This project implements a custom-designed single-cycle microprocessor that executes an Airport Terminal Tram Controller using a Finite State Machine (FSM). Rather than implementing the controller purely in software, the project focuses on designing the underlying processor hardware responsible for executing the controller's instructions.
 
 The processor, datapath, and control logic were built from scratch using Digital Logic. Every major hardware component—including the ALU, control unit, multiplexers, registers, memory interface, and program counter—was designed and integrated into a functioning processor capable of executing the FSM.
